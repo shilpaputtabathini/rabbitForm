@@ -1,0 +1,45 @@
+@import '../../../styles.scss';
+#homeSlider .carousel-item {
+    height: 650px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .contentAlign {
+      line-height: 24px;
+      letter-spacing: .6px;
+  }
+.trainingSection {
+    background-image: url("../../../assets/images/rabbit7.jpg");
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+  .getInTouchMain {
+    background-image: url("../../../assets/images/rabbit5.jpg");
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .getInTouchInner {
+        border: 1px solid #007bff;
+    padding: 20px;
+    background: rgba(0, 123, 255, 0.4196078431372549);
+    box-shadow: 15px 13px 23px #2b2a2a;
+    border-radius: 10px;
+    }
+  }
+  .card-header {
+    background: rgba(21, 92, 152, 0.7294117647058823);
+    color: #fff;
+    border-color: #fff;
+  }
+  .card-body{
+    background: rgba(255, 255, 255, 0.7411764705882353);
+}

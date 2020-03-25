@@ -1,0 +1,150 @@
+@import '../../../styles.scss';
+.headerTop {
+    padding: 8px;
+}
+.socialIcons {
+    list-style: none;
+    li {
+        float: right;
+        a {
+            i {
+            border: 1px solid $color-fff;
+            color: $bgColorTheme;
+            line-height: 30px;
+            text-align: center;
+            background: $color-fff;
+            margin-right: 10px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            margin-top: 2px;
+            color: $color-fff;
+            }
+        }
+    }
+
+    
+}
+.nav-item.active .nav-link { 
+  background-color: #ccc !important;
+  border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+}
+
+#navbar 
+{
+  .fixed-me 
+  {
+    border-bottom-color: $themeColor !important;
+    a.nav-link {
+    color: $themeColor !important;
+    }
+    .dropdown-menu a {
+      color: $themeColor !important;
+    }
+  }
+}
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .sticky-offset {
+    top: 56px;
+}
+
+.navbar-info {
+  width: 100%;
+  
+  
+}
+.fixed-me{
+  transition: all 1s ;
+}
+
+.fixed-me{
+  background-color:#fff !important;
+  padding: 0px  !important;
+  margin-bottom: 5px;
+  position: fixed;
+  top:0;
+z-index:888;
+  width: 100%;
+  border-bottom: 3px solid #ccc !important;
+  
+}
+
+.navbar-me {
+  
+ transition: all 1s ;
+}
+.header-right-menu{
+padding: 5px 15px !important;   
+  
+}
+.site-logo{
+  padding: 15px 20px !important; 
+  margin: 15px 10px !important;
+}
+.navbar-me{
+  padding: 10px 0px;
+  background-color: rgba(0, 0, 0, 0.61);
+  top: 0px;
+  border: 0px;
+  border-radius: 0px;
+}
+.navbar-collapse{
+  text-align: center;
+  border-top-width: 0px;
+
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+.menu-collapsed-button{
+  margin: 20px 15px 10px 15px !important;
+}

@@ -1,0 +1,31 @@
+
+.contactUsArea {
+    
+    .contactUsInner {
+        // background: rgba(21, 92, 152, 0.7411764705882353);
+        padding: 30px;
+        width: 700px;
+        margin: auto;
+        box-shadow: 0 0 16px #444;
+        -webkit-box-shadow: 0 0 16px #444;
+        -moz-box-shadow: 0 0 16px #444;        
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        .form-control  {
+            background: rgba(255, 255, 255, 0.6784313725490196);
+        }
+        .form-control:focus {
+            background: #fff !important;
+        }
+    }
+
+    .imgIS{
+        background-image: url('../../../assets/images/rabbit7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 600px; 
+    background-position: center center;
+}
+}

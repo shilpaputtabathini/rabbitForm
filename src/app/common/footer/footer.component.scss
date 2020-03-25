@@ -1,0 +1,36 @@
+
+@import '../../../styles.scss';
+footer {
+    background-color: $bgColorTheme;
+    .footerTitle {
+        font-size: 24px;
+    }
+.footerImages {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0;
+    li {
+        img {
+            width: 80px;
+            height: 80px;
+            margin: 1px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+        }
+    }
+}
+
+}
+
+/* Zoom-n-rotate Container */
+.footerImages .footerImages li img {
+    transition: transform .5s ease-in-out;
+  }
+  
+  /* The Transformation */
+  .footerImages .footerImages:hover li img {
+    transform: scale(2) rotate(25deg);
+  }
